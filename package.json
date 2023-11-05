@@ -1,5 +1,5 @@
 {
-  "homepage": "https://DINKAR202.github.io/Dice_Project",
+  "homepage": "https://DINKAR202/Dice_Project",
   "name": "dice-project",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.0"
