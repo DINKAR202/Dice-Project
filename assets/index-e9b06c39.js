@@ -89,7 +89,7 @@ Error generating stack: `+o.message+`
     background-color: hsla(120, 100%, 50%, 0.5);
     color: black !important;
     font-family: 'Roboto', sans-serif;
-`,Nm=({toggle:e})=>P.jsxs(P.Fragment,{children:[P.jsx(_m,{}),P.jsxs(zm,{children:[P.jsx("div",{children:P.jsx("img",{className:"Dice-img",src:xm,alt:"Dice img"})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"Dice Game Now"}),P.jsx(Hu,{onClick:e,children:"Play Now"})]})]}),P.jsx(Yf,{})]}),zm=Fe.div`
+`,Nm=({toggle:e})=>P.jsxs(P.Fragment,{children:[P.jsx(_m,{}),P.jsxs(zm,{children:[P.jsx("div",{children:P.jsx("img",{className:"Dice-img",src:xm,alt:"Dice img"})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"Dice Game"}),P.jsx(Hu,{onClick:e,children:"Play Now"})]})]}),P.jsx(Yf,{})]}),zm=Fe.div`
     max-width: 1180px;
     height: 100vh;
     display: flex;
