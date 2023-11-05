@@ -4,7 +4,7 @@ const CopyRight = () => {
   return (
     <Copy>
       <small>
-        Copyright &copy; 2023 <b><a className="name" href="https://www.instagram.com/its_me_aditi65/">AditiDev.</a></b>
+        Copyright &copy; 2023 <b><a className="name" href="www.instagram.com/its_me_aditi65/">AditiDev.</a></b>
       </small>
     </Copy>
   );
