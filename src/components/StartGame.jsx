@@ -11,10 +11,10 @@ const StartGame = ({ toggle }) => {
     <NavBar />
     <Container>
         <div>
-            
+            <img className="Dice-img" src="/images/dice-.png" alt="Dice img" />
         </div>
         <div className="content">
-            <h1>Dice Game</h1>
+            <h1>Dice Game Start now</h1>
             <Button
             onClick={toggle}
             >Play Now</Button>
