@@ -14,7 +14,7 @@ const StartGame = ({ toggle }) => {
             <img className="Dice-img" src={Dice} alt="Dice img" />
         </div>
         <div className="content">
-            <h1>Dice Game Now</h1>
+            <h1>Dice Game</h1>
             <Button
             onClick={toggle}
             >Play Now</Button>
