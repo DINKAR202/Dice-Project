@@ -138,7 +138,7 @@ Error generating stack: `+o.message+`
         font-size: 24px;
         font-weight: 500px;
     }
-`,Om=({currentDice:e,roleDice:t})=>P.jsx(jm,{children:P.jsxs("div",{className:"dice",onClick:t,children:[P.jsx("img",{src:`/images/dice/dice_${e}.png`,alt:`dice_${e}`}),P.jsx("p",{children:"Click on Dice to roll"})]})}),jm=Fe.div`
+`,Om=({currentDice:e,roleDice:t})=>P.jsx(jm,{children:P.jsxs("div",{className:"dice",onClick:t,children:[P.jsx("img",{src:`../../public/images/dice/dice_${e}.png`,alt:`dice_${e}`}),P.jsx("p",{children:"Click on Dice to roll"})]})}),jm=Fe.div`
     margin-top: 48px;
     display: flex;
     flex-direction: column;
