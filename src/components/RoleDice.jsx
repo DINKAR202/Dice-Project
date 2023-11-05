@@ -6,7 +6,7 @@ const RoleDice = ({ currentDice, roleDice }) => {
 
   useEffect(() => {
     // Construct the image source URL based on the currentDice value
-    const imageSource = `/images/dice/dice_${currentDice}.png`;
+    const imageSource = `/Dice-Project/images/dice/dice_${currentDice}.png`;
 
     // Preload the image to ensure it's available for rendering
     const img = new Image();
@@ -45,4 +45,4 @@ const DiceContainer = styled.div`
     text-align: center;
     font-size: 24px;
   }
-`;
+};`
