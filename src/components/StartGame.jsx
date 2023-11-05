@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import Dice from '../../public/images/dice-.png'
+import styled from "styled-components"; // Import 'styled' from styled-components
+import Dice from '../../public/images/dice/dice-.png'
 import '../App.css';
 import { Button } from "./styled/Button";
 import CopyRight from "./CopyRight";
