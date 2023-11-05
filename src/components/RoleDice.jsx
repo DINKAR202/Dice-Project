@@ -1,5 +1,5 @@
 import styled from "styled-components"
-// import Dice2 from `../../public/images/dice/dice_${currentDice}.png`
+import Dice2 from '../../public/images/dice/dice_1.png'
 
 const RoleDice = ({currentDice, roleDice}) => {
 
@@ -7,8 +7,10 @@ const RoleDice = ({currentDice, roleDice}) => {
     <DiceContainer>
       <div className="dice"
         onClick={roleDice}
+      // >
       >
-        <img src={`../../public/images/dice/dice_1.png`} alt={`dice_${currentDice}`} />
+        {/* <img src={`../../public/images/dice/dice_1.png`} alt={`dice_${currentDice}`} /> */}
+        <img src={Dice2} alt={`dice_${currentDice}`} />
         <p>Click on Dice to roll</p>
       </div>
     </DiceContainer>
