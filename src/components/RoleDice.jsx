@@ -1,16 +1,27 @@
 import styled from "styled-components";
+import { useEffect, useState } from "react";
 
 const RoleDice = ({ currentDice, roleDice }) => {
-  
-  const getDiceImage = (currentDice) => {
-    // Dynamically import the image based on the currentDice value
-    return import(`../../public/images/dice/dice_${currentDice}.png`);
-  };
+  const [diceImage, setDiceImage] = useState(null);
+
+  useEffect(() => {
+    // Construct the image source URL based on the currentDice value
+    const imageSource = `/images/dice/dice_${currentDice}.png`;
+
+    // Preload the image to ensure it's available for rendering
+    const img = new Image();
+    img.src = imageSource;
+    img.onload = () => {
+      setDiceImage(imageSource);
+    };
+  }, [currentDice]);
 
   return (
     <DiceContainer>
       <div className="dice" onClick={roleDice}>
-        <img src={getDiceImage(currentDice)} alt={`dice_${currentDice}`} />
+        {diceImage && (
+          <img src={diceImage} alt={`dice_${currentDice}`} />
+        )}
         <p>Click on Dice to roll</p>
       </div>
     </DiceContainer>
