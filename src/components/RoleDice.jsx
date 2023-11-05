@@ -1,10 +1,6 @@
-import { useState } from "react"
 import styled from "styled-components"
 
-
 const RoleDice = ({currentDice, roleDice}) => {
-
-  
 
   return (
     <DiceContainer>
